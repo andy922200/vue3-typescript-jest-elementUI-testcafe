@@ -1,0 +1,24 @@
+@import 'variables';
+@import 'base';
+
+#app {
+    min-height: 100vh;
+    font-family: $font-family;
+    text-align: center;
+    color: #2c3e50;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#nav {
+    padding: 30px;
+
+    a {
+        font-weight: bold;
+        color: #2c3e50;
+    }
+
+    .router-link-active {
+        color: #42b983;
+    }
+}
