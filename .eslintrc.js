@@ -12,7 +12,8 @@ module.exports = {
         ecmaVersion: 2020
     },
     rules: {
-        indent: [2, 4],
+        '@typescript-eslint/indent': ['error', 4],
+        indent: 'off',
         quotes: [2, 'single'],
         semi: [2, 'never'],
         'no-use-before-define': [2, 'nofunc'],
