@@ -13,6 +13,7 @@ module.exports = {
     },
     rules: {
         '@typescript-eslint/indent': ['error', 4],
+        '@typescript-eslint/no-this-alias': 'off',
         indent: 'off',
         quotes: [2, 'single'],
         semi: [2, 'never'],
