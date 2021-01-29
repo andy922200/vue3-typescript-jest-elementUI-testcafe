@@ -17,6 +17,7 @@
 - [Dayjs](https://day.js.org/) - Fast 2kB alternative to Moment.js with the same modern API
 - [Element UI Plus](https://element-plus.org/#/en-US) - Element Plus, a Vue 3.0 based component library (Including Day.js)
 - [ESLint](https://eslint.org/) - Find and fix problems in your JavaScript code
+- [Json-Server](https://github.com/typicode/json-server) - Get a full fake REST API with zero coding in less than 30 seconds (seriously)
 - [Stylelint](https://stylelint.io/) - A mighty, modern linter that helps you avoid errors and enforce conventions in your styles.
 - [TestCafe](https://devexpress.github.io/testcafe/) - A node.js tool to automate
 end-to-end web testing

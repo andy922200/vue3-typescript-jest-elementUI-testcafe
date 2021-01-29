@@ -21,6 +21,9 @@ module.exports = {
             maxAssetSize: 512000
         }
     },
+    // devServer: {
+    //     proxy: 'http://localhost:4000'
+    // },
     productionSourceMap: false,
     transpileDependencies: [
         'element-plus'
