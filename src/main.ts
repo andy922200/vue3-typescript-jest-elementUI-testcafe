@@ -4,5 +4,14 @@ import {
 import App from './App.vue'
 import router from './router'
 import store from './store'
+import VueI18n from './i18n/entry'
 
-createApp(App).use(store).use(router).mount('#app')
+import ElementPlus from 'element-plus'
+import 'element-plus/lib/theme-chalk/index.css'
+
+const app = createApp(App)
+// access rootElement in setup
+app.provide('rootVueInstance', app)
+app.use(ElementPlus)
+app.use(VueI18n)
+app.use(store).use(router).mount('#app')
