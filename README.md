@@ -1,4 +1,4 @@
-# Vue3 + TypeScript + Jest + TestCafe Integrated Template 整合模板
+# Vue3 + TypeScript + i18n + Jest + TestCafe Integrated Template 整合模板
 
 <p align="center">
     <img src="./iconForReadme.png" alt="logo" width="256" height="147">
@@ -23,6 +23,7 @@
 end-to-end web testing
 - [TypeScript](https://www.typescriptlang.org/) - TypeScript extends JavaScript by adding types.
 - [Vue 3](https://v3.vuejs.org/) - The Progressive JavaScript Framework.
+- [Vue I18n](https://vue-i18n-next.intlify.dev/) - Vue I18n is internationalization plugin for Vue.js
 - [Vue Test Utils with Jest](https://vue-test-utils.vuejs.org/guides/) - Vue Test Utils is the official unit testing utility library for Vue.js.
 
 ## Prerequisites
