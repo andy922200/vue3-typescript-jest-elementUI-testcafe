@@ -24,7 +24,7 @@
 
 <script lang="ts">
 import {
-    defineComponent, computed, inject, DefineComponent
+    defineComponent, computed
 } from 'vue'
 
 import {
@@ -35,11 +35,15 @@ import {
     useStore
 } from 'vuex'
 
+import {
+    useI18n
+} from 'vue-i18n'
+
 export default defineComponent({
     name: 'App',
     setup () {
-        const root = inject('rootVueInstance') as DefineComponent
         const store = useStore()
+        const { locale } = useI18n()
 
         return {
             selectedLanguageModel: computed({
@@ -47,7 +51,7 @@ export default defineComponent({
                     return store.getters.selectedLanguage
                 },
                 set (value: string) {
-                    root.__VUE_I18N__.global.locale = value
+                    locale.value = value
                     store.dispatch('selectNewDefaultLanguage', value)
                 }
             }),
